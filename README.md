@@ -2,7 +2,7 @@
 
 ![Java](https://img.shields.io/badge/Java-8%2B-blue?logo=java&logoColor=white)
 ![ONE Simulator](https://img.shields.io/badge/Simulator-ONE-brightgreen?logo=network)
-![Status](https://img.shields.io/badge/Status-Completed-success)
+
 
 ## **Overview**
 This project evaluates **Epidemic** and **Spray-and-Wait** routing protocols in a **medical emergency** scenario using the **Opportunistic Network Environment (ONE)** simulator. The goal is to understand trade-offs across delivery, delay, overhead, drops, and hop count when connectivity is intermittent (DTN/Opportunistic networks).
@@ -73,7 +73,7 @@ This project evaluates **Epidemic** and **Spray-and-Wait** routing protocols in 
   - `pedestrian_paths.wkt`  
   - `shops.wkt`  
 
-### **Run**
+### **Run (macOS / Linux)**
 ```bash
-# From the ONE simulator directory
+cd /path/to/one-simulator
 java -jar one.jar config/medical_emergency_settings.txt
