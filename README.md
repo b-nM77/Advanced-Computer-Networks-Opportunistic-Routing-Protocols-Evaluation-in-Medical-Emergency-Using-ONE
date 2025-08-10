@@ -18,7 +18,6 @@ This project evaluates **Epidemic** and **Spray-and-Wait** routing protocols in 
    - Roads  
    - Main roads  
    - Pedestrian paths  
-   - Shops  
 5. **G5 – Health centre (1):** stationary at (2000, 2600)  
 
 ---
