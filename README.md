@@ -5,8 +5,9 @@
 
 
 ## **Overview**
-This project evaluates **Epidemic** and **Spray-and-Wait** routing protocols in a **medical emergency** scenario using the **Opportunistic Network Environment (ONE)** simulator. The goal is to understand trade-offs across delivery, delay, overhead, drops, and hop count when connectivity is intermittent (DTN/Opportunistic networks).
-
+This project uses the Opportunistic Network Environment (ONE) simulator to evaluate Epidemic and Spray-and-Wait routing protocols in a medical emergency delay-tolerant network (DTN) scenario.
+The analysis compares trade-offs in delivery ratio, delay, overhead, drops, and hop count under varying buffer capacities.
+Findings show that Spray-and-Wait performs best in resource-limited conditions, while Epidemic achieves higher delivery when large buffers are available.
 ---
 
 ## **Node Groups (35 Total)**
